@@ -63,9 +63,9 @@
 		AA7623B980C4FC7FE14FAA64 /* Pods-XDBusinessModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XDBusinessModule_Tests.debug.xcconfig"; path = "Target Support Files/Pods-XDBusinessModule_Tests/Pods-XDBusinessModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		AD82A167A78A07F31C824A0A /* Pods_XDBusinessModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XDBusinessModule_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3C60ED1318C995828EF9DB1 /* Pods-XDBusinessModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XDBusinessModule_Tests.release.xcconfig"; path = "Target Support Files/Pods-XDBusinessModule_Tests/Pods-XDBusinessModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		BFA3BEAD817FC5E7C913A98B /* XDBusinessModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XDBusinessModule.podspec; path = ../XDBusinessModule.podspec; sourceTree = "<group>"; };
-		C7473D5C16AA59AA7C1AE63E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		D534EB0BAB11E694CA576ECE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		BFA3BEAD817FC5E7C913A98B /* XDBusinessModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XDBusinessModule.podspec; path = ../XDBusinessModule.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C7473D5C16AA59AA7C1AE63E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D534EB0BAB11E694CA576ECE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		EBD6BB646CA6B820EB3A7E32 /* Pods-XDBusinessModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XDBusinessModule_Example.release.xcconfig"; path = "Target Support Files/Pods-XDBusinessModule_Example/Pods-XDBusinessModule_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,6 @@
 				AA7623B980C4FC7FE14FAA64 /* Pods-XDBusinessModule_Tests.debug.xcconfig */,
 				B3C60ED1318C995828EF9DB1 /* Pods-XDBusinessModule_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,7 +207,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				B46A14263E104D5791507E1E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -259,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -316,24 +315,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B46A14263E104D5791507E1E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-XDBusinessModule_Example/Pods-XDBusinessModule_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/XDBusinessModule/XDBusinessModule.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XDBusinessModule.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XDBusinessModule_Example/Pods-XDBusinessModule_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DE063A31BBDEE3E13CDA16CE /* [CP] Embed Pods Frameworks */ = {
