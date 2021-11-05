@@ -6,20 +6,9 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		C3881FF07AD3DFE24C5C9013D01FF9FD /* XDBusinessModule */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 645F90FF3B5DF2BADB7857DF97126B74 /* Build configuration list for PBXAggregateTarget "XDBusinessModule" */;
-			buildPhases = (
-			);
-			dependencies = (
-			);
-			name = XDBusinessModule;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
 		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0785E76DC469F0CBF997F8C2B1C8E424 /* XDBusinessModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A49AC7B436C3DB51935EB14049FAC961 /* XDBusinessModule-dummy.m */; };
 		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */; };
 		121439AB6B4061E1B6222256817548FA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E658F388F01C72599CA75537950B6095 /* XCTest.framework */; };
 		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */; };
@@ -27,10 +16,12 @@
 		2E4C0BD2363ABABB6470FBA5415985AA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */; };
 		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */; };
+		8193911594E43417308ABFB7C5930594 /* XDTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AA792756E2C068551BF196966C27B42 /* XDTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
 		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */; };
 		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */; };
+		A0A80C5E75DEBD7A07A08F0A4E100B8B /* XDBusinessModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F30028869ED7540B8E0368F337AEACF6 /* XDBusinessModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */; };
 		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		B9440F3EC96F983E3347E0D312D9B04A /* Pods-XDBusinessModule_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB14CAE98C48065432C61A144E7A8A75 /* Pods-XDBusinessModule_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -38,8 +29,10 @@
 		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CA63ADACAC6C2BF1E30108E6BEF68A09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
 		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D19ADEA9707A9DAF95205ED5F14BE2B2 /* XDTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5640B933CB2EABF9EFB8C8BB604F252D /* XDTimer.m */; };
 		D24121081E4319A084A7C3C97FCB756A /* Pods-XDBusinessModule_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA1219D911D7F849E3EEE68C1BF5F293 /* Pods-XDBusinessModule_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D43E323F01C323F7D243C9D624005D30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		D7B3845E628A27DD24C6649C598FCC1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
 		D7F5075EB716CA011656004F93B1E881 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
 		E197E20E9CA38FCBA4A58372B230B530 /* Pods-XDBusinessModule_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 113CA38FDEB5307D1B3FABA4E15C74C6 /* Pods-XDBusinessModule_Example-dummy.m */; };
 		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */; };
@@ -49,42 +42,41 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		58F33AD782A734539B96DD90BB7531EF /* PBXContainerItemProxy */ = {
+		0111A8E2CA2775989074CD83E1D374F6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C3881FF07AD3DFE24C5C9013D01FF9FD;
 			remoteInfo = XDBusinessModule;
 		};
-		6207CC661BB5F1B2971AE1C6BF43D0DB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DA27262CA74981405FC373463221427F;
-			remoteInfo = "Pods-XDBusinessModule_Example";
-		};
-		73BF269D16AC6CEACBE8EA2A0D47C420 /* PBXContainerItemProxy */ = {
+		24B291EF35DE401F0BD6119E3752E9A5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
 			remoteInfo = FBSnapshotTestCase;
 		};
+		8562CD09F6D61C47804E9AFF60D8901D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA27262CA74981405FC373463221427F;
+			remoteInfo = "Pods-XDBusinessModule_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09A95ECF17E3AEF7AFD7FD9EB70B720A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		10CDE9AFEC888647B718FCBF21314154 /* Pods_XDBusinessModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XDBusinessModule_Example.framework; path = "Pods-XDBusinessModule_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		113CA38FDEB5307D1B3FABA4E15C74C6 /* Pods-XDBusinessModule_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XDBusinessModule_Example-dummy.m"; sourceTree = "<group>"; };
-		1311909B50D054672A327EA3AB519A91 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		179ACB2AD055CC7172FEA1F9218AE7EB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		1F2CA3514B483DA2FE2E9B4F240F3B47 /* XDBusinessModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XDBusinessModule.release.xcconfig; sourceTree = "<group>"; };
 		235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		23FD445306B8487666E164AF423CA276 /* Pods_XDBusinessModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XDBusinessModule_Tests.framework; path = "Pods-XDBusinessModule_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		2C899DD5D800A3EF89B8E1D9C1E906B4 /* XDBusinessModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XDBusinessModule.modulemap; sourceTree = "<group>"; };
 		3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		33DD75B8740FF3103E965C4CAFD188AC /* Pods-XDBusinessModule_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XDBusinessModule_Tests.modulemap"; sourceTree = "<group>"; };
 		3EEAE0E7F5C2CBB4699A238B40732080 /* Pods-XDBusinessModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XDBusinessModule_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -93,26 +85,33 @@
 		48B86EAF583731273840CFAA5286AA46 /* Pods-XDBusinessModule_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XDBusinessModule_Example-Info.plist"; sourceTree = "<group>"; };
 		4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
 		53E48F35FD4B925E88F955E60343276A /* Pods-XDBusinessModule_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XDBusinessModule_Tests-dummy.m"; sourceTree = "<group>"; };
+		5640B933CB2EABF9EFB8C8BB604F252D /* XDTimer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XDTimer.m; path = XDBusinessModule/Classes/XDTimer.m; sourceTree = "<group>"; };
 		57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5B298C69F9F9BB804ED3B83C5D93553A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		6DD00900ACB9F5EBC8EE69FF5C25374C /* XDBusinessModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XDBusinessModule.release.xcconfig; sourceTree = "<group>"; };
 		6EA4CD6183DB1C2FE0EF61269A2C2FFD /* Pods-XDBusinessModule_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XDBusinessModule_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		7307B72A30B2695A4AE246432B1E41EC /* XDBusinessModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XDBusinessModule.debug.xcconfig; sourceTree = "<group>"; };
 		7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
 		84DFED90546CDB253C787EFB7E750CD6 /* Pods-XDBusinessModule_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XDBusinessModule_Tests-Info.plist"; sourceTree = "<group>"; };
 		88772ADD58C494993A69E331802C8D3F /* Pods-XDBusinessModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XDBusinessModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		8AA792756E2C068551BF196966C27B42 /* XDTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XDTimer.h; path = XDBusinessModule/Classes/XDTimer.h; sourceTree = "<group>"; };
 		8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		900BA6507400F84096E29941B58E874A /* Pods-XDBusinessModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XDBusinessModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		943D08571C0EC47361FE33940DCD6C73 /* XDBusinessModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XDBusinessModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
 		96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A02FD59A37AD122971EE20F66B6D10F2 /* XDBusinessModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XDBusinessModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A270F4F62F5265D20245CBDD387B48D4 /* Pods-XDBusinessModule_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XDBusinessModule_Example.modulemap"; sourceTree = "<group>"; };
-		A4DEC5BD5A4E937F9AA6DB6CFCBFE4E7 /* XDBusinessModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XDBusinessModule.debug.xcconfig; sourceTree = "<group>"; };
+		A49AC7B436C3DB51935EB14049FAC961 /* XDBusinessModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XDBusinessModule-dummy.m"; sourceTree = "<group>"; };
 		A5A7AF50990E36D731356BC67B95F70C /* Pods-XDBusinessModule_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XDBusinessModule_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A947698C76C0F5CE2EFDF29385BCEACA /* XDBusinessModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XDBusinessModule-Info.plist"; sourceTree = "<group>"; };
 		AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		B1C49605F9F4F54C07BE04AE261B1818 /* XDBusinessModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XDBusinessModule.framework; path = XDBusinessModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B42811B23961E0E400C0B349803FAE1F /* Pods-XDBusinessModule_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XDBusinessModule_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
 		C12418CAA648E8C3ABE605E7171DD36A /* Pods-XDBusinessModule_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XDBusinessModule_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -122,8 +121,10 @@
 		CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		DB761B349C88E2B96FB4320855E74D0A /* XDBusinessModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XDBusinessModule-prefix.pch"; sourceTree = "<group>"; };
 		E658F388F01C72599CA75537950B6095 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		E6B6278CBADC5C6A3BFF2B11287E451A /* Pods-XDBusinessModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XDBusinessModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F30028869ED7540B8E0368F337AEACF6 /* XDBusinessModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XDBusinessModule-umbrella.h"; sourceTree = "<group>"; };
 		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -133,6 +134,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7F5075EB716CA011656004F93B1E881 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71B04626C57EF1D7F0E88F51D6537C81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7B3845E628A27DD24C6649C598FCC1F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,16 +167,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		02B8BF7F843EAEEE0BAFC8E043DE66E7 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */,
-				10CDE9AFEC888647B718FCBF21314154 /* Pods_XDBusinessModule_Example.framework */,
-				23FD445306B8487666E164AF423CA276 /* Pods_XDBusinessModule_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		4BA2479549DD918290454B1CDCD0B92B /* Core */ = {
 			isa = PBXGroup;
 			children = (
@@ -205,12 +204,14 @@
 			path = "Target Support Files/Pods-XDBusinessModule_Example";
 			sourceTree = "<group>";
 		};
-		8D04550C1477E7DEC22B9ABA94BB9BA4 /* Development Pods */ = {
+		5D09BDD0D8CC314A4C3DBC95B58A3580 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				BDF34C6EB80CA20680F70F2DCFF9AEA6 /* XDBusinessModule */,
+				09A95ECF17E3AEF7AFD7FD9EB70B720A /* LICENSE */,
+				5B298C69F9F9BB804ED3B83C5D93553A /* README.md */,
+				943D08571C0EC47361FE33940DCD6C73 /* XDBusinessModule.podspec */,
 			);
-			name = "Development Pods";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */ = {
@@ -219,6 +220,26 @@
 				3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */,
 			);
 			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		968FDCB15B0EEB0C491B68DF299BBA68 /* XDBusinessModule */ = {
+			isa = PBXGroup;
+			children = (
+				8AA792756E2C068551BF196966C27B42 /* XDTimer.h */,
+				5640B933CB2EABF9EFB8C8BB604F252D /* XDTimer.m */,
+				5D09BDD0D8CC314A4C3DBC95B58A3580 /* Pod */,
+				E685867F5A7FDB179A862EBF644DBCFA /* Support Files */,
+			);
+			name = XDBusinessModule;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		97EAC966D07E7D91682FE1600CF10DD4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				968FDCB15B0EEB0C491B68DF299BBA68 /* XDBusinessModule */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */ = {
@@ -255,26 +276,6 @@
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
-		BDF34C6EB80CA20680F70F2DCFF9AEA6 /* XDBusinessModule */ = {
-			isa = PBXGroup;
-			children = (
-				C7AAE31CBD61A113EC2463A1A0B4561C /* Pod */,
-				DC1A9AD0AA6575204047C3064F10AD91 /* Support Files */,
-			);
-			name = XDBusinessModule;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		C7AAE31CBD61A113EC2463A1A0B4561C /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				179ACB2AD055CC7172FEA1F9218AE7EB /* LICENSE */,
-				1311909B50D054672A327EA3AB519A91 /* README.md */,
-				A02FD59A37AD122971EE20F66B6D10F2 /* XDBusinessModule.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		CE64E5D90BAEC411E67E93D1BC475F46 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -288,19 +289,35 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				8D04550C1477E7DEC22B9ABA94BB9BA4 /* Development Pods */,
+				97EAC966D07E7D91682FE1600CF10DD4 /* Development Pods */,
 				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
 				E81A37DBDE41E671312C56736544E2FA /* Pods */,
-				02B8BF7F843EAEEE0BAFC8E043DE66E7 /* Products */,
+				E232BA628250DAD251327A019EDDB184 /* Products */,
 				CE64E5D90BAEC411E67E93D1BC475F46 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		DC1A9AD0AA6575204047C3064F10AD91 /* Support Files */ = {
+		E232BA628250DAD251327A019EDDB184 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A4DEC5BD5A4E937F9AA6DB6CFCBFE4E7 /* XDBusinessModule.debug.xcconfig */,
-				1F2CA3514B483DA2FE2E9B4F240F3B47 /* XDBusinessModule.release.xcconfig */,
+				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */,
+				10CDE9AFEC888647B718FCBF21314154 /* Pods_XDBusinessModule_Example.framework */,
+				23FD445306B8487666E164AF423CA276 /* Pods_XDBusinessModule_Tests.framework */,
+				B1C49605F9F4F54C07BE04AE261B1818 /* XDBusinessModule.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E685867F5A7FDB179A862EBF644DBCFA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C899DD5D800A3EF89B8E1D9C1E906B4 /* XDBusinessModule.modulemap */,
+				A49AC7B436C3DB51935EB14049FAC961 /* XDBusinessModule-dummy.m */,
+				A947698C76C0F5CE2EFDF29385BCEACA /* XDBusinessModule-Info.plist */,
+				DB761B349C88E2B96FB4320855E74D0A /* XDBusinessModule-prefix.pch */,
+				F30028869ED7540B8E0368F337AEACF6 /* XDBusinessModule-umbrella.h */,
+				7307B72A30B2695A4AE246432B1E41EC /* XDBusinessModule.debug.xcconfig */,
+				6DD00900ACB9F5EBC8EE69FF5C25374C /* XDBusinessModule.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/XDBusinessModule";
@@ -360,6 +377,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4F27DDD4EF76E0B7ACE4254A6A28A12F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0A80C5E75DEBD7A07A08F0A4E100B8B /* XDBusinessModule-umbrella.h in Headers */,
+				8193911594E43417308ABFB7C5930594 /* XDTimer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5E95B672603B85A390ADC73699940AC6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -391,8 +417,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				55D5317E3DB4675F205430DE8B14D38B /* PBXTargetDependency */,
-				4E02D6A23BE9A36F89B7A22791D4E649 /* PBXTargetDependency */,
+				F89FC06CF90B1E79C6DF8065F245CB8A /* PBXTargetDependency */,
+				83137CD4C7394D19E39B5D90175BE18C /* PBXTargetDependency */,
 			);
 			name = "Pods-XDBusinessModule_Tests";
 			productName = "Pods-XDBusinessModule_Tests";
@@ -417,6 +443,24 @@
 			productReference = 5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		C3881FF07AD3DFE24C5C9013D01FF9FD /* XDBusinessModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E685B6AD68915E6D37A7ABBC14E96E1 /* Build configuration list for PBXNativeTarget "XDBusinessModule" */;
+			buildPhases = (
+				4F27DDD4EF76E0B7ACE4254A6A28A12F /* Headers */,
+				C9B5CEFC5675F0A3E7D5E36699A5B6DB /* Sources */,
+				71B04626C57EF1D7F0E88F51D6537C81 /* Frameworks */,
+				35B1A7DF3DE87AE389B97B56240F12C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XDBusinessModule;
+			productName = XDBusinessModule;
+			productReference = B1C49605F9F4F54C07BE04AE261B1818 /* XDBusinessModule.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		DA27262CA74981405FC373463221427F /* Pods-XDBusinessModule_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7F7660277B29E2AC13A1CD1052BF7051 /* Build configuration list for PBXNativeTarget "Pods-XDBusinessModule_Example" */;
@@ -429,7 +473,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				38D717169B14483DC392F5E904D796B8 /* PBXTargetDependency */,
+				EFBA2E8E4C1730F2A9C31678FF842FA0 /* PBXTargetDependency */,
 			);
 			name = "Pods-XDBusinessModule_Example";
 			productName = "Pods-XDBusinessModule_Example";
@@ -454,7 +498,7 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 02B8BF7F843EAEEE0BAFC8E043DE66E7 /* Products */;
+			productRefGroup = E232BA628250DAD251327A019EDDB184 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -467,6 +511,13 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		35B1A7DF3DE87AE389B97B56240F12C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5CC655F1A6C7A45A9693160581076BAE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -523,26 +574,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C9B5CEFC5675F0A3E7D5E36699A5B6DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0785E76DC469F0CBF997F8C2B1C8E424 /* XDBusinessModule-dummy.m in Sources */,
+				D19ADEA9707A9DAF95205ED5F14BE2B2 /* XDTimer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		38D717169B14483DC392F5E904D796B8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = XDBusinessModule;
-			target = C3881FF07AD3DFE24C5C9013D01FF9FD /* XDBusinessModule */;
-			targetProxy = 58F33AD782A734539B96DD90BB7531EF /* PBXContainerItemProxy */;
-		};
-		4E02D6A23BE9A36F89B7A22791D4E649 /* PBXTargetDependency */ = {
+		83137CD4C7394D19E39B5D90175BE18C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-XDBusinessModule_Example";
 			target = DA27262CA74981405FC373463221427F /* Pods-XDBusinessModule_Example */;
-			targetProxy = 6207CC661BB5F1B2971AE1C6BF43D0DB /* PBXContainerItemProxy */;
+			targetProxy = 8562CD09F6D61C47804E9AFF60D8901D /* PBXContainerItemProxy */;
 		};
-		55D5317E3DB4675F205430DE8B14D38B /* PBXTargetDependency */ = {
+		EFBA2E8E4C1730F2A9C31678FF842FA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XDBusinessModule;
+			target = C3881FF07AD3DFE24C5C9013D01FF9FD /* XDBusinessModule */;
+			targetProxy = 0111A8E2CA2775989074CD83E1D374F6 /* PBXContainerItemProxy */;
+		};
+		F89FC06CF90B1E79C6DF8065F245CB8A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FBSnapshotTestCase;
 			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
-			targetProxy = 73BF269D16AC6CEACBE8EA2A0D47C420 /* PBXContainerItemProxy */;
+			targetProxy = 24B291EF35DE401F0BD6119E3752E9A5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -866,36 +926,81 @@
 			};
 			name = Debug;
 		};
-		DE077B38072F3B195F46E7114523B356 /* Release */ = {
+		DD64413E50468B3A715779F159CFE5AF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1F2CA3514B483DA2FE2E9B4F240F3B47 /* XDBusinessModule.release.xcconfig */;
+			baseConfigurationReference = 7307B72A30B2695A4AE246432B1E41EC /* XDBusinessModule.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XDBusinessModule/XDBusinessModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XDBusinessModule/XDBusinessModule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/XDBusinessModule/XDBusinessModule.modulemap";
+				PRODUCT_MODULE_NAME = XDBusinessModule;
+				PRODUCT_NAME = XDBusinessModule;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		F645635457DC61DDF7BC41EAD33BFFA5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A4DEC5BD5A4E937F9AA6DB6CFCBFE4E7 /* XDBusinessModule.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		E16C407142407825AE12D9B56755EE41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DD00900ACB9F5EBC8EE69FF5C25374C /* XDBusinessModule.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XDBusinessModule/XDBusinessModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XDBusinessModule/XDBusinessModule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/XDBusinessModule/XDBusinessModule.modulemap";
+				PRODUCT_MODULE_NAME = XDBusinessModule;
+				PRODUCT_NAME = XDBusinessModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2E685B6AD68915E6D37A7ABBC14E96E1 /* Build configuration list for PBXNativeTarget "XDBusinessModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD64413E50468B3A715779F159CFE5AF /* Debug */,
+				E16C407142407825AE12D9B56755EE41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -910,15 +1015,6 @@
 			buildConfigurations = (
 				D2149818DAB5D240AA6C2C2F02AEE98B /* Debug */,
 				6672E5DFEC11D50E5AD0D6140F4CBD1D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		645F90FF3B5DF2BADB7857DF97126B74 /* Build configuration list for PBXAggregateTarget "XDBusinessModule" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F645635457DC61DDF7BC41EAD33BFFA5 /* Debug */,
-				DE077B38072F3B195F46E7114523B356 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

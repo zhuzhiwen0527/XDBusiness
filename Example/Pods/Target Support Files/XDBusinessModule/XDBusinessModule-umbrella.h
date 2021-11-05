@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "XDTimer.h"
 
 FOUNDATION_EXPORT double XDBusinessModuleVersionNumber;
 FOUNDATION_EXPORT const unsigned char XDBusinessModuleVersionString[];

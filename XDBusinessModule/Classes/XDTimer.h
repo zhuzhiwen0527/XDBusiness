@@ -1,6 +1,6 @@
 //
 //  XDTimer.h
-//  XDBusinessModule
+//  Pods
 //
 //  Created by fancyzzw on 2021/11/5.
 //
