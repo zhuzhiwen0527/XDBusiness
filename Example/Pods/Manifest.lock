@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - XDBusinessModule (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - XDBusinessModule (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  XDBusinessModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  XDBusinessModule: 823b3b7dd6c9867923bf4a530ce450ad6d854853
+
+PODFILE CHECKSUM: 942a7e235c9625a9d58fb8382e45c0a6b7534035
+
+COCOAPODS: 1.10.1
